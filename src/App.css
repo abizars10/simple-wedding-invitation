@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+@theme {
+  --animate-spin-slow: spin 3s linear infinite;
+}
+
 .container {
   height: 100vh;
   display: flex;
