@@ -27,11 +27,11 @@ export default function CoverModal({ isOpen, onOpen }) {
           <div className="absolute inset-0 z-0 bg-black/60" />
 
           {/* Konten undangan */}
-          <motion.div initial={{ scale: 0.8, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ delay: 0.2 }} className="container relative z-10 max-w-xl space-y-4">
+          <motion.div initial={{ scale: 0.8, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ delay: 0.2 }} className=" relative z-10 w-full max-w-xl space-y-4">
             <div>
-              <p className="text-sm uppercase tracking-widest text-amber-200 md:text-2xl">The Wedding Of</p>
-              <h1 className="my-2 font-serif text-4xl text-amber-100 md:text-6xl">Abizar &amp; Zahra</h1>
-              <p className="text-sm text-stone-200 md:text-lg">Ahad, 27 Oktober 2026</p>
+              <p className="text-sm text-shadow-lg uppercase tracking-widest text-amber-200 md:text-2xl">The Wedding Of</p>
+              <h1 className="my-2 font-serif text-4xl text-shadow-lg text-amber-100 md:text-6xl">ABIZAR &amp; ZAHRA</h1>
+              <p className="text-sm text-stone-200 md:text-lg">AHAD, 27 DESEMBER 2026</p>
               <p className="my-4 text-xs text-stone-200 md:text-sm">
                 Kepada Yth.
                 <br />
