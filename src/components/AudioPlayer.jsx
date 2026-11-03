@@ -1,5 +1,5 @@
-import { useState, useEffect, useRef } from "react";
-import { Music, Pause, Play } from "lucide-react";
+import { useEffect, useRef } from "react";
+import { Pause, Play } from "lucide-react";
 
 export default function AudioPlayer({ isPlaying, setIsPlaying }) {
   const audioRef = useRef(null);

@@ -16,7 +16,7 @@ function App() {
   return (
     <>
       <CoverModal isOpen={isCoverOpen} onOpen={handleOpenInvitation} />
-      <Home />
+      {!isCoverOpen && <Home />}
       <AudioPlayer isPlaying={isPlaying} setIsPlaying={setIsPlaying} />
     </>
   );
